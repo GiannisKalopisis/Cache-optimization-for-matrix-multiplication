@@ -48,4 +48,12 @@ Depending on the size of the cache, the block size, and the associativity we hav
 
 
 ## Simulators
-For the project's needs, the EduMIPS64 simulator was used, which simulates a MIPS64 architecture processor. You can run the included jar file of EduMIPS64 with command `java -jar edumips64-1.2.6-standalone.jar` or download the latest version from  [EduMIPS64 website](https://www.edumips.org/). DineroIV emulator was used to simulate cache memories, which you can be found at [DineroIV (Windows) website](http://pages.cs.wisc.edu/~markhill/DineroIV/) for Windows and at [DineroIV (Linux) website](http://www.dejazzer.com/coen4730/doc/hw2_cache_dinero.pdf?fbclid=IwAR2l6o3jjcisqqeclnhKZtuRjYJBjeTD0JsRCg7uZwDM-UKuY7OMkuoIvY8) for Linux.
+
+### EduMIPS64
+EduMIPS64 simulator was used to simulate a MIPS64 architecture processor. You can run the included jar file of EduMIPS64 with command `java -jar edumips64-1.2.6-standalone.jar` or download the latest version from  [EduMIPS64 website](https://www.edumips.org/).
+
+
+### DineroIV
+DineroIV emulator was used to simulate cache memories. You can use the included DineroIV version for Linux or you can use the latest version [DineroIV (Windows) website](http://pages.cs.wisc.edu/~markhill/DineroIV/) for Windows and at [DineroIV (Linux) website](http://www.dejazzer.com/coen4730/doc/hw2_cache_dinero.pdf?fbclid=IwAR2l6o3jjcisqqeclnhKZtuRjYJBjeTD0JsRCg7uZwDM-UKuY7OMkuoIvY8) for Linux.
+
+An execution example for Linux: `./dineroIV (options) < trace_file_name` or use the command creation file to see more examples.
